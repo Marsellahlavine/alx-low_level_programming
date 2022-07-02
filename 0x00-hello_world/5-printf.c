@@ -6,5 +6,5 @@
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a pieace of atr, \n");
-	return (0)
+	return (0);
 }
