@@ -8,10 +8,9 @@
 int main(void)
 {
 char a;
-for (letter = 'a'; letter <= 'z'; letter++)
+for (letter = 'a'; letter < = 'z'; letter++)
 if (a == 'q' || a == 'e')
 continue;
-putchar(letter);
 putchar(a);
 return (0);
 }
