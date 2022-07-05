@@ -8,12 +8,12 @@ nclude "main.h"
 
 void print _alphabet(void)
 {
-	    int j;
-	    for (j= 'a'; j<= 'z'; j++)
-	    {
-		    putchar(j);
-	    }
-	    putchar('\n');
+int j
+for (j = 'a'; j <= 'z'; j++)
+{
+putchar(j);
+}
+putchar('\n');
 
-	        return (0);
+return (0);
 }
