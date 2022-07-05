@@ -1,17 +1,19 @@
 nclude "main.h"
 
 /**
- * main - print _alphabet -> prints the lowercase alphabets  
+ * print_alphabet -print a-z
+ *
+ * Return: Always void
  */
-
-void print _alphabet(void)
+void print_alphabet(void)
 {
-int j
+int j;
+
 for (j = 'a'; j <= 'z'; j++)
 {
-putchar(j);
+_putchar(j);
 }
-putchar('\n');
+_putchar('\n');
 
 return (0);
 }
