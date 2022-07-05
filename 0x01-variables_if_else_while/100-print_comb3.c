@@ -1,4 +1,4 @@
-#include <stdi.h>
+#include <stdio.h>
 
 /**
  * main - Empty point
