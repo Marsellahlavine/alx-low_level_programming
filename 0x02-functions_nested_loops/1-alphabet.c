@@ -1,9 +1,7 @@
 nclude "main.h"
 
 /**
- * main - print _alphabet -> prints the lowercase alphabets
- *  
- * Return: Always 0.
+ * main - print _alphabet -> prints the lowercase alphabets  
  */
 
 void print _alphabet(void)
