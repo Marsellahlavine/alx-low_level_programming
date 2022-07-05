@@ -11,8 +11,8 @@ int x;
 
 for (x = 0; x < 10; x++)
 {
-putchar(j);
+_putchar(j);
 }
-putchar('\n');
+_putchar('\n');
 	    
 }
