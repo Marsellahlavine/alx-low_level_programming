@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet -print a-z
+ * print_alphabet -print a-z in lower case
  *
  * Return: Always void
  */
@@ -13,7 +13,6 @@ for (j = 'a'; j <= 'z'; j++)
 {
 _putchar(j);
 }
-_putchar('\n');
+_putchar('\n')
 
-return (0);
 }
