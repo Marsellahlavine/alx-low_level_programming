@@ -3,7 +3,7 @@
 /**
  * more numbers - printing more numbers
  */
-void more numbers(void)
+void more_numbers(void)
 {
 int x, y;
 
