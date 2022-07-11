@@ -10,7 +10,7 @@ int main(void)
 int i, j, k, s;
 char c[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 char p[58];
-strand(time(NULL));
+srand(time(NULL));
 while (s != 2772)
 {
 i = k = s = 0;
