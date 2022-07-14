@@ -4,7 +4,7 @@
 /**
  * leet - encodes a string into leetspeek.
  * @s: pointer to input string
- * Return: returns pointer to leets peek string
+ * Return: returns pointer to leets peekstring
  */
 char *leet(char *s)
 {
