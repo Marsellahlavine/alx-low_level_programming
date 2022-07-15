@@ -6,24 +6,19 @@
  */
 char *rot13(char *str)
 {
-int u[] = {65, 69, 79, 84, 74};
-int x[] = {97, 101, 111, 116, 108};
-int x[] = {52, 51, 48, 55, 49};
-int i = 0;
-int j;
+char m[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+char n[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-while (str[i] != '\0')
+for (i = 0; str[i] != '\0'; i++)
 {
-for (j = 0; j < 5; j++)
+for (j = 0; m[j] != '\0'; j++)
 {
-if (str[i] == u[j] || str[i] == l[j])
+if (str[i] == m[j])
 {
-str[i] = x[j];
-
+str[i] = n[j];
 break;
 }
 }
-i++;
 }
 return (str);
 }
