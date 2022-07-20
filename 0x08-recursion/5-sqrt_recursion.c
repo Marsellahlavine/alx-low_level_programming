@@ -1,8 +1,10 @@
 #include "main.h"
+ 
+int _sqrt(int, int);
 
 /**
  * _sqrt_recursion - sqrt using recursion
- * @n: parameter to be sqrt
+ * @n: param to be sqrt
  * Return: square root of a number
  */
 int _sqrt_recursion(int n)
