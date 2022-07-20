@@ -2,14 +2,14 @@
 #include <stdio.h>
 /**
  * print_diagsums - prints sum of two diagonals of a square
- * @a: pointr to array
+ * @a: pointer to array
  * @size: size of array
  *
  * Return: void
  */
 void print_diagsums(int *a, int size)
 {
-int i, size;
+int i, size1;
 unsigned int sumDiag1, sumDiag2;
 
 size1 = 0;
