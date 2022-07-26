@@ -22,7 +22,7 @@ if (s2 == NULL)
 s2 = "";
 
 len1 = 0;
-while (s1[len] != '\0')
+while (s1[len1] != '\0')
 len1++;
 len2 = 0;
 while (s2[len2] != '\0')
@@ -33,7 +33,7 @@ size = len1 + len2;
 nstr = malloc((sizeof(char) * size) +1);
 /*check if malloc was succesful */
 if (nstr == NULL)
-return (NULL)
+return (NULL);
 
 i = 0;
 while (i < len1)
