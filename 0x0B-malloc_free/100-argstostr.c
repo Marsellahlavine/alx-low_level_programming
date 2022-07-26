@@ -24,6 +24,7 @@ while (av[i][j])
 {
 size++;
 j++;
+}
 size++;
 i++;
 }
