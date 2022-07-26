@@ -38,7 +38,7 @@ return (NULL);
 }
 for (a = 0; a < height; a++)
 {
-for (b = 0; b < widh; b++)
+for (b = 0; b < width; b++)
 {
 p[a][b] = 0;
 }
