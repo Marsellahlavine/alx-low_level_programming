@@ -28,7 +28,6 @@ j++;
 size++;
 i++;
 }
-arg = malloc((sizeof
 arg = malloc((sizeof(char) * size) +1);
 if (arg == NULL)
 return (NULL);
@@ -41,7 +40,6 @@ while (av[i][j])
 arg[k] = av[i][j];
 j++;
 k++;
-i++;
 }
 arg[k] = '\n';
 k++;
