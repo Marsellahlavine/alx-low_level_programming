@@ -28,7 +28,7 @@ j++;
 size++;
 i++;
 }
-arg = malloc((sizeof))
+arg = malloc((sizeof
 arg = malloc((sizeof(char) * size) +1);
 if (arg == NULL)
 return (NULL);
