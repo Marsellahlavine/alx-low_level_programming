@@ -34,7 +34,7 @@ if (s2 == NULL)
 s2 = "";
 if (num < 0) /* account for negative n bytes */
 return (NULL);
-if (num >= _stlen(s2) /* account for n too big */
+if (num >= _stlen(s2)) /* account for n too big */
 num = _strlen(s2);
 
 len = _strlen(s1) + num + 1; /* +1 to account for null pointer */
@@ -47,7 +47,7 @@ for (i = 0; s1[i] != '\0'; i++) /* concat */
 ptr[i] = s1[i];
 for (j = 0; j < num; j++)
 ptr[i + j] = s2[j];
-ptr[i + j] = '\0;
+ptr[i + j] = '\0';
 
 return (ptr);
 }
