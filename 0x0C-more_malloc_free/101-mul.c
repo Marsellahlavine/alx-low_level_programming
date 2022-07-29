@@ -16,4 +16,11 @@ int find_len(char *str)
 int len = 0;
 
 while (*str++)
-len++
+len++;
+
+return (len);
+}
+/**
+ * create_array - creates an array of chars and initializes it with
+ * the character 'x'. Adds a terminating null byte
+ *
