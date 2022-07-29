@@ -16,7 +16,7 @@ unsigned int i;
 
 if (new_size == old_size)
 return (ptr);
-if ((nw_size == 0) && (ptr != NULL))
+if ((new_size == 0) && (ptr != NULL))
 {
 free(ptr);
 return (NULL);
