@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <stdlib.h>
 #include "main.h"
 /**
@@ -15,7 +15,7 @@ for (i = 0; string[i] != '\0'; i++)
 return (i);
 }
 /**
- * string_nconcat - concatenate s1 and n byte of s2; return prt to string
+ * string_nconcat - concatenate s1 and n byte of s2; return ptr to string
  * @s1: string 1
  * @s2: string 2
  * @n: n bytes to concat from string 2
@@ -34,7 +34,7 @@ if (s2 == NULL)
 s2 = "";
 if (num < 0) /* account for negative n bytes */
 return (NULL);
-if (num >= _stlen(s2)) /* account for n too big */
+if (num >= _strlen(s2)) /* account for n too big */
 num = _strlen(s2);
 
 len = _strlen(s1) + num + 1; /* +1 to account for null pointer */
