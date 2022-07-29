@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <stdlib.h>
 #include "main.h"
 /**
- * _strlen - calculates and returns string length
+ * _strlen - calculate and return string length
  * @string: string
  * Return: string length
  */
@@ -34,6 +34,7 @@ if (s2 == NULL)
 s2 = "";
 if (num < 0) /* account for negative n bytes */
 return (NULL);
+if (num >= _strlen(s2)) /* account for n too big */
 if (num >= _strlen(s2)) /* account for n too big */
 num = _strlen(s2);
 
