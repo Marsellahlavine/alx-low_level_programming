@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * array_range - creates an array of integers
- * @main: minimum value
+ * @min: minimum value
  * @max: maximum value
  *
  * Return: pointer to newly created array
@@ -21,7 +21,7 @@ return (NULL);
 
 range = ((max + 1) - min);
 
-p = malloc(range * sizeof(int));
+p = malloc(range *sizeof(int));
 
 if (p == NULL)
 return (NULL);
