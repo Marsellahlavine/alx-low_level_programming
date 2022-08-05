@@ -17,7 +17,7 @@ va_start(arglist, n);
 
 for (i = 0; i < n; i++)
 {
-sum += va_arg(arglit, int);
+sum += va_arg(arglist, int);
 }
 va_end(arglist);
 
