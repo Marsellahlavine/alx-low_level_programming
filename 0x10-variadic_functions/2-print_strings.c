@@ -15,7 +15,7 @@ char *s;
 va_list strings;
 
 if (separator == NULL)
-separator = " ";
+separator = "";
 
 va_start(strings, n);
 
